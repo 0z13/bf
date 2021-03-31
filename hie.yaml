@@ -1,0 +1,13 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "bf:lib"
+
+    - path: "./app/Main.hs"
+      component: "bf:exe:bf-exe"
+
+    - path: "./app/Paths_bf.hs"
+      component: "bf:exe:bf-exe"
+
+    - path: "./test"
+      component: "bf:test:bf-test"
